@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,10 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>{{$helloWorld}}</h1>
-
-
-    <header>
+<header>
         <nav>
             <ul>
                 <li><a href="{{route('home')}}">Home</a></li>
@@ -19,5 +15,7 @@
         </nav>
 
     </header>
+
+    <h1>{{$aboutTitle}}</h1>
 </body>
 </html>

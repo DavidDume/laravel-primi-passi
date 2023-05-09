@@ -21,4 +21,14 @@ Route::get('/', function () {
     ];
 
     return view('home', $data);
-});
+
+})->name('home');
+
+Route::get('about', function() {
+
+    $data = [
+        'aboutTitle' => 'About'
+    ];
+    return view('about', $data);
+
+})->name('about');
